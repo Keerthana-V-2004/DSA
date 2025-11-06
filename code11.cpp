@@ -1,8 +1,8 @@
 /*SORTING ALGO
-Bubble sort:-O(n^2) find largest ele (adjacent) in array and place it in original positn
-Selection sort:-O(n^2) find the smallest (adjacent) ele in array and place it in original positn
+Big - Bubble sort:-O(n^2) find largest ele (adjacent) in array and place it in original positn
+Small - Selection sort:-O(n^2) find the smallest (adjacent) ele in array and place it in original positn
 Insertion sort:-O(n^2) divide into sorted and unsorted array 1st ele is sorted array remaining unsorted
-compare the unsorted array 1st ele with sorted array last ele if it is smaller tn shift else last2ndele is
+compare the unsorted array 1st ele with sorted array last ele if it is smaller tn shift else last 2nd ele is
 checked for condtn  */
 
 #include<iostream>
@@ -42,10 +42,10 @@ vector<int> insertionSort(vector<int> arr,int n){
 
       while (prev>=0 && arr[prev] > curr)
       {
-       arr[prev+1]=arr[prev];
+       arr[prev+1]=arr[prev];  //greater elem stored in the prev+1
        prev--;
       }
-      arr[prev+1] = curr;
+      arr[prev+1] = curr;     //smaller elem stored in the prev
     }
   return arr;
 }

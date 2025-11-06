@@ -26,16 +26,16 @@ bool searchInRow(vector<vector<int>> mat, int tag , int row){ // O(logn)
 
 bool searchMatrix(vector<vector<int>> mat ,int tag){ // O(logm)
   //BS on total rows
-  int m = mat.size(), n = mat[0].size();
+  int m = mat.size(), n = mat[0].size(); //m is no of colms,n is rows
   int stRow = 0, endRow = m-1;
-  while(stRow <= endRow){
-    int midRow = stRow + (endRow - stRow)/2;
+  while(stRow <= endRow){   //selecting entire row in the matrix
+    int midRow = stRow + (endRow - stRow)/2;  //midlle row in the matrix
 
     if(tag >= mat[midRow][0] && tag <= mat[midRow][n-1]){
-      return searchInRow(mat, tag, midRow);
+      return searchInRow(mat, tag, midRow);  //this will search in the row
     } else if(tag >= mat[midRow][n-1]){
       //down => right
-      stRow = midRow + 1;
+      stRow = midRow + 1;  //move to down row of the matrix
     }else{
       //up => left
       endRow = midRow - 1;
@@ -59,7 +59,7 @@ bool srcMat(vector<vector<int>> mat, int tag){
   int n = mat.size(), m = mat[0].size();
 
   int r = 0, c = n-1;
-  while (r < n && c >= 0){
+  while (r < m && c >= 0){
     if(tag == mat[r][c]){
       return true;
     }else if (tag < mat[r][c]){  //descard entire col

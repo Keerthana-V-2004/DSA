@@ -16,16 +16,16 @@ int search(vector<int> A, int tar){
     }
   
     if(A[st] < A[mid]){ // LEFT SORTED
-      if(A[st] <= tar && tar <= A[mid]){
+      if(A[st] <= tar && tar <= A[mid]){  //sorted part
         end = mid-1;
       }else{
-        st = mid +1;
+        st = mid +1;  //unsorted part
       }
     }else {   // RIGHT SORTED
-      if(A[mid] <= tar && tar <= A[end]){
+      if(A[mid] <= tar && tar <= A[end]){ //in the sorted part
         st = mid+1;
       }else{
-        end = mid-1;
+        end = mid-1;  //unsorted part
       }
     }     
  }
@@ -34,5 +34,5 @@ int search(vector<int> A, int tar){
 
   int main(){
     vector<int> A = {3,4,5,6,7,0,1,2};
-    cout << search(A, 0) << endl;
+    cout << search(A, 2) << endl;
   }

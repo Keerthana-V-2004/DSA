@@ -40,7 +40,7 @@ vector<int> sortColor3(vector<int> a){
   while(mid <= high){
     if(a[mid] == 0){
       swap(a[low++],a[mid++]);
-    }else if(a[mid] == 1){
+    }else if(a[mid] == 1){ 
         mid++;
     }else{ // 2
       swap(a[high--],a[mid]);

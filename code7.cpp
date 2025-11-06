@@ -17,7 +17,7 @@ int maxArea(vector<int> height){
     int currWater = w*ht;
     maxWater = max(maxWater, currWater);
 
-    height[lp] < height[rp] ? lp++ : rp++;
+    height[lp] <= height[rp] ? lp++ : rp--;
     }
   return maxWater;
 }

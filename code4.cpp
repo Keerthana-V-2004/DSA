@@ -10,10 +10,15 @@ void changeA1(int a){ //PASS BY VAL
   a=20;
 }
 
-void changeA2(int* q) //PASS BY REFERENCE using pointers
-{                      //OR BY references(ALIAS):- void changeA2(int* &b){ (store the add of a) 
-   *q=30;                      //                        b=30;  }                                                          
-}
+// void changeA2(int* q) //PASS BY REFERENCE using pointers
+// {           
+//   *q=30;                                                                     
+// }
+
+//OR BY references(ALIAS):-
+void changeA2(int &b){ //(store the add of a) pass the argument as value of a
+    b=30; 
+} 
 
 int main(){
   int a=10;
@@ -22,7 +27,7 @@ int main(){
   int* p=NULL; //Otherwise, Garbage value will be stored
 
 
-  cout << ptr << endl; // ADDRESS OF VAR
+  cout << ptr << endl; // ADDRESS OF a
   cout << &a << endl;
   cout << &ptr << endl; //ADDRESS OF POINTER
   cout << ptr2 << endl; //PARENT POINTER:-Stores add of pointer
@@ -34,7 +39,7 @@ int main(){
  changeA1(a);
  cout << "inside main fun: "<< a << endl;// VAL DOESN'T CHANGE
 
- changeA2(&a); 
+ changeA2(a); 
  cout << "inside main fun: "<< a << endl;// CHANGED
 
  int arr[]={1,2,3,4,5};

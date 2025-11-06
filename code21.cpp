@@ -4,41 +4,44 @@ chars = ["a","a","b","b","c","c","c"] => return ["a","2","b","2","c","3"] 6
 2.count == 1 =>ch , count > 1 => "ch"+to_string(count)*/
 #include<iostream>
 #include<vector>
+#include<string>
 using namespace std;
 
-int compress(vector<char> chars){
-  int n = chars.size();
+int compress(vector<char> &chars){
+  int n = (int)chars.size();
+  if(n == 0) return 0; // handle empty input
+
   int idx = 0;
-  cout << "compressed string:" ;
-  for(int i=0; i < n; i++){   // for and while loop both are updating i only so TC:O(n)
-    char ch = chars[i];  //i(0) = a, i(2) = b ,
+  for(int i = 0; i < n; i++){   // TC: O(n)
+    char ch = chars[i];
     int count = 0;
 
     while (i < n && chars[i] == ch){
       count++;  i++;
     }
-    
-    if(count == 1){
-      chars[idx] = ch;
-      cout << chars[idx++];
-    } else{
-      chars[idx] = ch;
-      cout << chars[idx++];
-      string str = to_string(count);// convert the int count to string
-      for(char dig : str){  // if count contains double digit
-        chars[idx] = dig;
-        cout << chars[idx++];
+
+    // write the character
+    chars[idx++] = ch;
+
+    // write the count digits (if > 1)
+    if(count > 1){
+      string str = to_string(count); // convert the int count to string
+      for(char dig : str){
+        chars[idx++] = dig; // handles multi-digit counts
       }
     }
-    
-    i--; //for get back the idx number to st of next new char aabbccc 1st time idx=2 s0 --
+
+    i--; // step back so the for-loop's i++ goes to the next new char
   }
-  cout << "\n";
-  chars.resize(idx); //resize or compress the vec to compreesed str len
+
+  chars.resize(idx); // shrink to compressed length
   return idx;
 }
 
 int main(){
   vector<char> chars = {'a','a','b','b','c','c','c'} ;
-  cout  << "compressed string length:"<< compress(chars) << endl;
+  int len = compress(chars);
+  cout << "compressed string: ";
+  for(char c : chars) cout << c;
+  cout << "\ncompressed string length: " << len << endl;
 }

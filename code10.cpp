@@ -14,13 +14,13 @@ vector<int> prodexpself(vector<int> nums){
    vector<int> sfx(n,1);
 
    for(int i=1;i<n ;i++){     //O(n)
-    pfx[i]=pfx[i-1]*nums[i-1];
+    pfx[i]=pfx[i-1]*nums[i-1];  //(pfx[0]=1)1,1,1*2,2*3
    }
    for(int i=n-2 ;i>=0 ;i--){   //O(n)
-    sfx[i]=sfx[i+1] * nums[i+1];
+    sfx[i]=sfx[i+1] * nums[i+1];  //1,1*4,4*3,12*2  12*2,4*3,1*4,1(sfx[n-1]=1)
    }
    for(int i=0;i<n ;i++){      //O(n)
-    ans[i]=pfx[i]*sfx[i];
+    ans[i]=pfx[i]*sfx[i];    //1*24,1*12,2*4,6*1
    }
 
 return ans;

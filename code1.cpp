@@ -34,9 +34,32 @@ using namespace std;
 void reversearray(int arr[],int sz){
   int start=0,end=sz-1;
     while(start < end){
+      //built-in function swap
       swap(arr[start],arr[end]);
       start++;
       end--;
+
+    //by using temp variable
+     int temp = arr[start];
+     arr[start] = arr[end];
+     arr[end] = temp;
+     start++;
+     end--;
+
+    //By using a,b,c operation
+     int temp = arr[start]+arr[end];
+     arr[start] = temp - arr[start];
+     arr[end] = temp - arr[end];
+     start++;
+     end--;
+
+    //XOR only works for distinct variables not for same referce variable 
+    //X ^ X = 0 so don't work
+    arr[start] = arr[start] ^ arr[end];
+    arr[end] = arr[start] ^ arr[end];
+    arr[start] = arr[start] ^ arr[end];
+    start++;
+    end--;
     }
 }
 

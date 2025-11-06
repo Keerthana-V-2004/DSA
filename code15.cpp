@@ -23,8 +23,8 @@ int countPrimes(int n){
     if(isprime[i]){
       count++;
 
-      for(int j=i*2; j<n; j=j+i){
-        isprime[j] = false;
+      for(int j=i*2; j<n; j=j+i){  //runs till eliminate all the multiples of 2 in 1st step
+        isprime[j] = false;    //next step allows only the non-mul of the 2
       }
     }
   }
@@ -44,7 +44,7 @@ bool isArmstrong(int n){
   }
   return sumOfCubes == copyN;
 }
-/*(BETTER)EUCLIDS ALGO FOR GCD:- gcd(a,b) = gcd(a-b,b) a > b , => gcd(a,b-a)  b > a
+/*(BETTER)EUCLIDS ALGO FOR GCD:- gcd(a,b) = gcd(a-b,b) a > b , => gcd(a,b-a) b>a
 gcd(20,28)-> gcd(20,8)  ->gcd(12,8)  ->gcd(4,8)  ->gcd(4,4)  ->gcd(0,4)
 Repeated sub => division these steps can be reduced by the modulo oper 
 gcd(a,b) = gcd(a%b,b) a > b , => gcd(a,b%a)  b > a 
@@ -140,7 +140,7 @@ cout << "Palindrome:" << isPalindrome(g) << endl;
 
 /*Modulo Arithmetics
 range int 32 bit = ans % 10^9 + 7(prime no and *prevent int overflow)
-x % n = (0,..,n-1)  100 % 3 = (0,1,2)
+x % n = range of remainder (0,..,n-1)  100 % 3 = range (0,1,2) exist b/w range
 (x+y)% m = x%m + y%m , (x-y)%m = x%m - y%m , (x.y)% m = x%m . y%m
 ((x%m)%m)%m....= (x%m)*/
   return 0;

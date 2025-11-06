@@ -1,0 +1,82 @@
+/*
+1.SMALLEST/LARGEST IN ARRAY ,REVERSING ARRAY
+
+2.LINEAR SEARCH ALGO
+
+3.BINARY SEARCH ALGO
+
+4.POINTERS
+
+5.USING BINARY EXPONENTIATION
+
+6.STOCK BUY AND SELL
+
+7.CONTAINER WITH MOST WATER
+
+8.SEARCH IN ROATED SORTED ARRAY
+
+9.MAXIMUM SUBARRAY SUM  TC:O(n)
+
+10.PROD OF ARRAY EXCEPT SELF
+
+11.SORTING ALGO
+
+12.SORT COLORS n objs
+
+13.LEETCODE MERGE 2 SORTED ARRAYS
+
+14.NEXT PERMUTATION
+
+15.DSA MATHS
+
+16.Character Arrays
+
+17.Reverse a String
+
+18.Valid Palindrome and remove all occurences
+
+19.Permutation in String
+
+20.Reverse Words in string word
+
+21.String Compression
+
+22.2D Array
+
+23.Search in 2D matrix:-using Binary search
+
+24.SUBARRAY SUM EQUALS K -By PREFIX SUM
+
+25.2 SUM
+
+26.Find missing and Repeating values
+
+27.
+
+28.3SUM
+
+29.4 SUM
+
+30.
+
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+42.
+43.
+44.
+45.
+56.
+47.
+48.
+49.
+50.
+*/

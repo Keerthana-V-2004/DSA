@@ -1,8 +1,12 @@
 //LEETCODE 1:- 2 SUM
-//arr = [5,2,11,7,15] tag = 9 return [1,3] => 2+7=9 assume single sol
-//Brute :- All pairs - sum = tag TC:-O(n*n)
+//arr = [5,2,11,7,15] tar = 9 return [1,3] => 2+7=9 assume single sol
+//Brute :- All pairs - sum = tag TC:-O(n*n) two for loop
 //Better :-   TC:O(nlogn) two pointer approach
-//1. sort arr[] O(nlogn) 2. O(n) traverse over arr for sum
+//1. sort arr[] O(nlogn)
+// 2. O(n) traverse over arr for sum
+// while(st < end){
+// sum = arr[st]+ arr[end]
+// sum < tar ?st++ : end--}
 //optimized :- Hashing :maps and sets
 
 #include<iostream>
@@ -20,7 +24,7 @@ vector<int> twoSum(vector<int> arr, int tar){
     
     // constant TC for find fun O(1)
     if(m.find(sec) != m.end()){  // find() fun return T ,else return iterator m.end() 
-      ans.push_back(i);      // adding ele to map
+      ans.push_back(i);      // adding ele 
       ans.push_back(m[sec]);  
       return ans;
     }

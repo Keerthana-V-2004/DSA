@@ -65,7 +65,7 @@ int main(){
   pair<int,int> pos = linearSrch(mat,row,col,key) ;
   cout <<"Linear search:"<< pos.first << "," << pos.second << endl;
   cout <<"Maximum row sum:" << getMaxSum(mat,row,col) << endl;
-  cout <<"Diagonal Sum:" << diagonalSum(mat,3) << "\n";
+  cout <<"Diagonal Sum:" << diagonalSum(mat,3) << "\n"; // 3 is matrix size
 
 /*2D vector:Dynamic
 row = mat.size(), col = mat[i].size() how many col in one row eg:mat[0].size=3 

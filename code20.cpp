@@ -30,6 +30,6 @@ trailing spaces/Multiple spaces "__hello__World__" => "World_hello"  */
  }                      // Taking substr from 1st indx
 
  int main(){
-  string s = "hello World";
+  string s = "  hello World";
   cout << reverseWords(s) << endl;
  }

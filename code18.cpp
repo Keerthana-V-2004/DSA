@@ -38,7 +38,6 @@ string removeOccurences(string s, string part){
   return s;
 }
 
-
 int main(){
  string s = "Ac3?e3c&a";
  string s1 = "daabcbaabcbc", part = "abc";

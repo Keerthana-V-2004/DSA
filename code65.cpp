@@ -8,6 +8,8 @@
 
 #include<iostream>
 #include<vector>
+#include<queue>
+
 using namespace std;
 
 class Node {
@@ -49,11 +51,79 @@ Node* buildTree(vector<int> &preorder,vector<int> &inorder,int& preIdx, int left
 
 }
 
+int maxWidthBT(Node* root) {
+  queue<pair<Node* ,unsigned long long>> q;
+  q.push({root,0});
+  int maxWidth = 0;
+
+  while (q.size() > 0)
+  {
+    int currLevelSize = q.size();
+    unsigned long long stIdx = q.front().second;
+    unsigned long long endIdx = q.back().second;
+
+    maxWidth = max(maxWidth, int(endIdx-stIdx+1));
+
+    for(int i=0 ; i<currLevelSize; i++){
+      auto curr = q.front();
+      q.pop();
+
+      if(curr.first->left) {
+         q.push({curr.first->left,curr.second*2+1});
+      }
+
+      if(curr.first->right) {
+         q.push({curr.first->right,curr.second*2+2});
+      }
+    }
+  }
+  return maxWidth;
+
+}
+
+//Morris inorder traversel - Iterative traversal-inoder predecessor
+//there is no way to backtrack in the iteration so we need to create temporary thread connection b/w root and right-leaf node in left-subtree and in right-subtree root and left-leaf
+vector<int> inorderTraversal(Node* root) {
+  vector<int> ans;
+  Node* curr = root;
+
+  while(curr != NULL) {
+    if(curr->left == NULL) {
+      ans.push_back(curr->data);
+      curr = curr->right;
+    } else {
+      //find inorder predecessor
+      Node* IP = curr->left;
+      while(IP->right != NULL && IP->right != curr) {
+        IP = IP->right;
+      }
+      if(IP->right == NULL){
+        IP->right = curr;
+        curr = curr->left;
+      } else {
+        IP->right = NULL; //destroy
+        ans.push_back(curr->data);
+        curr = curr->right;
+      }
+    }
+
+  }
+  return ans;
+}
+
 int main() {
   vector<int> preorder = {3,9,20,15,7};
   vector<int> inorder = {9,3,15,20,7};
   int preIdx = 0;
   Node* root = buildTree(preorder,inorder,preIdx,0,inorder.size()-1);
   cout << root->data << endl;
+
+  int maxWidth = maxWidthBT(root);
+  cout << maxWidth << endl;
+
+  vector<int> inord = inorderTraversal(root);
+  for(int ans : inord) {
+    cout << ans  << " ";
+  }
   return 0;
 }

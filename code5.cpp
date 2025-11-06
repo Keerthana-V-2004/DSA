@@ -23,15 +23,15 @@ long pow(double x,int n){
     if(binform % 2 == 1){ //if it is odd no 5%2==1(1), 2%2!=1(0),1%2==1(1)
       ans = ans * x;     //1.3 ,_,3.81 
     }
-    x*=x;  //whn BF==0 update 3.3=9  ,9.9=81 ,81.81
-    binform /= 2; //update  5/2=2, 2/2=1
+    x*=x;  //next binary position = next pow of 2 update 3.3=9  ,9.9=81 ,81.81
+    binform /= 2; //move to next bit update  5/2=2, 2/2=1
   }
   return ans;
 }
 
 int main(){
-  double x=3;
-  int n=5;
+  double x=5;
+  int n=4;
   
   cout << pow(x,n) << endl;
 }

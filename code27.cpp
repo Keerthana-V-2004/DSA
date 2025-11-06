@@ -16,6 +16,19 @@ int findDupsets(vector<int> nums){ //TC:-O(n) SC:-O(n)
   return -1;
 }
 
+int removeDuplicates(vector<int>& nums) {
+  int n = nums.size();
+  int i = 1;
+  for(int j=1 ;j <n ;j++) {
+
+    if(nums[j] != nums[i-1]) {
+      nums[i] = nums[j];
+      i++;
+    } 
+  }
+  return i; 
+}
+
 
 int findDuplicate(vector<int> arr){ // TC:-O(n) SC:-O(1)
   int slow = arr[0] ,fast = arr[0];
@@ -38,5 +51,7 @@ int main(){
   vector<int> nums = {1,3,4,2,2};
   cout << "using unordered_set:" << findDupsets(nums) << "\n";
   cout << "Slow-fast:" << findDuplicate(nums);
+  vector<int> nums1 = {0,0,1,1,1,2,2,3,3,4};
+  cout << "\nRemove Duplicates from sorted array:" << removeDuplicates(nums1) << "\n";
   return 0;
 }

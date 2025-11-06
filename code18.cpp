@@ -29,7 +29,7 @@ bool isPalindrome(string s){
   }
   return true;
 }
-
+ 
 //Remove Occurances
 string removeOccurences(string s, string part){
   while (s.length() > 0 && s.find(part)< s.length()){

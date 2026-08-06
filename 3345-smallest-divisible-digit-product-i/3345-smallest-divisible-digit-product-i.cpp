@@ -6,7 +6,7 @@ public:
         while(true){
             int product = 1;
             n = number;
-            while(n){
+            while(n>0){
                 product *= n % 10;
                 n /= 10;
             }

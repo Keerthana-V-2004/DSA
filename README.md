@@ -149,15 +149,18 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Keerthana-V-2004/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0387-first-unique-character-in-a-string](https://github.com/Keerthana-V-2004/DSA/tree/master/0387-first-unique-character-in-a-string) |
+| [0424-longest-repeating-character-replacement](https://github.com/Keerthana-V-2004/DSA/tree/master/0424-longest-repeating-character-replacement) |
 ## String
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Keerthana-V-2004/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0387-first-unique-character-in-a-string](https://github.com/Keerthana-V-2004/DSA/tree/master/0387-first-unique-character-in-a-string) |
+| [0424-longest-repeating-character-replacement](https://github.com/Keerthana-V-2004/DSA/tree/master/0424-longest-repeating-character-replacement) |
 ## Sliding Window
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Keerthana-V-2004/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/Keerthana-V-2004/DSA/tree/master/0424-longest-repeating-character-replacement) |
 ## Math
 |  |
 | ------- |

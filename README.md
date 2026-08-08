@@ -156,6 +156,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Keerthana-V-2004/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0387-first-unique-character-in-a-string](https://github.com/Keerthana-V-2004/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Keerthana-V-2004/DSA/tree/master/0424-longest-repeating-character-replacement) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Keerthana-V-2004/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 ## Sliding Window
 |  |
 | ------- |
@@ -194,4 +195,16 @@
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/Keerthana-V-2004/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Keerthana-V-2004/DSA/tree/master/1004-max-consecutive-ones-iii) |
+## Two Pointers
+|  |
+| ------- |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Keerthana-V-2004/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
+## Dynamic Programming
+|  |
+| ------- |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Keerthana-V-2004/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
+## Greedy
+|  |
+| ------- |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Keerthana-V-2004/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 <!---LeetCode Topics End-->

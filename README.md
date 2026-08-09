@@ -148,6 +148,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Keerthana-V-2004/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0128-longest-consecutive-sequence](https://github.com/Keerthana-V-2004/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0387-first-unique-character-in-a-string](https://github.com/Keerthana-V-2004/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Keerthana-V-2004/DSA/tree/master/0424-longest-repeating-character-replacement) |
 ## String
@@ -183,6 +184,7 @@
 ## Array
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Keerthana-V-2004/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0209-minimum-size-subarray-sum](https://github.com/Keerthana-V-2004/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Keerthana-V-2004/DSA/tree/master/1004-max-consecutive-ones-iii) |
 ## Binary Search
@@ -207,4 +209,8 @@
 |  |
 | ------- |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Keerthana-V-2004/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Keerthana-V-2004/DSA/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->

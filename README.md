@@ -168,6 +168,7 @@
 ## Math
 |  |
 | ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Keerthana-V-2004/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Keerthana-V-2004/DSA/tree/master/3345-smallest-divisible-digit-product-i) |
 ## Enumeration
 |  |
@@ -185,6 +186,7 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Keerthana-V-2004/DSA/tree/master/0128-longest-consecutive-sequence) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Keerthana-V-2004/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0209-minimum-size-subarray-sum](https://github.com/Keerthana-V-2004/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Keerthana-V-2004/DSA/tree/master/1004-max-consecutive-ones-iii) |
 ## Binary Search
@@ -213,4 +215,8 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Keerthana-V-2004/DSA/tree/master/0128-longest-consecutive-sequence) |
+## Stack
+|  |
+| ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Keerthana-V-2004/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 <!---LeetCode Topics End-->

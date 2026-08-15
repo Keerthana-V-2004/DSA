@@ -155,6 +155,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Keerthana-V-2004/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0032-longest-valid-parentheses](https://github.com/Keerthana-V-2004/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0387-first-unique-character-in-a-string](https://github.com/Keerthana-V-2004/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Keerthana-V-2004/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Keerthana-V-2004/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -207,6 +208,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/Keerthana-V-2004/DSA/tree/master/0032-longest-valid-parentheses) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Keerthana-V-2004/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 ## Greedy
 |  |
@@ -219,6 +221,11 @@
 ## Stack
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/Keerthana-V-2004/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Keerthana-V-2004/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0636-exclusive-time-of-functions](https://github.com/Keerthana-V-2004/DSA/tree/master/0636-exclusive-time-of-functions) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0032-longest-valid-parentheses](https://github.com/Keerthana-V-2004/DSA/tree/master/0032-longest-valid-parentheses) |
 <!---LeetCode Topics End-->

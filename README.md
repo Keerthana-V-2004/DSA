@@ -191,6 +191,7 @@
 | [0209-minimum-size-subarray-sum](https://github.com/Keerthana-V-2004/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0636-exclusive-time-of-functions](https://github.com/Keerthana-V-2004/DSA/tree/master/0636-exclusive-time-of-functions) |
 | [1004-max-consecutive-ones-iii](https://github.com/Keerthana-V-2004/DSA/tree/master/1004-max-consecutive-ones-iii) |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Keerthana-V-2004/DSA/tree/master/3069-distribute-elements-into-two-arrays-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -228,4 +229,8 @@
 |  |
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Keerthana-V-2004/DSA/tree/master/0032-longest-valid-parentheses) |
+## Simulation
+|  |
+| ------- |
+| [3069-distribute-elements-into-two-arrays-i](https://github.com/Keerthana-V-2004/DSA/tree/master/3069-distribute-elements-into-two-arrays-i) |
 <!---LeetCode Topics End-->

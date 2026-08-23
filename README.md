@@ -169,6 +169,7 @@
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/Keerthana-V-2004/DSA/tree/master/0007-reverse-integer) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Keerthana-V-2004/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Keerthana-V-2004/DSA/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/Keerthana-V-2004/DSA/tree/master/3622-check-divisibility-by-digit-sum-and-product) |

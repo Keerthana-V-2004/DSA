@@ -165,6 +165,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Keerthana-V-2004/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/Keerthana-V-2004/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Keerthana-V-2004/DSA/tree/master/0424-longest-repeating-character-replacement) |
+| [0643-maximum-average-subarray-i](https://github.com/Keerthana-V-2004/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [1004-max-consecutive-ones-iii](https://github.com/Keerthana-V-2004/DSA/tree/master/1004-max-consecutive-ones-iii) |
 ## Math
 |  |
@@ -192,6 +193,7 @@
 | [0150-evaluate-reverse-polish-notation](https://github.com/Keerthana-V-2004/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0209-minimum-size-subarray-sum](https://github.com/Keerthana-V-2004/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0636-exclusive-time-of-functions](https://github.com/Keerthana-V-2004/DSA/tree/master/0636-exclusive-time-of-functions) |
+| [0643-maximum-average-subarray-i](https://github.com/Keerthana-V-2004/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [1004-max-consecutive-ones-iii](https://github.com/Keerthana-V-2004/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/Keerthana-V-2004/DSA/tree/master/3069-distribute-elements-into-two-arrays-i) |
 ## Binary Search

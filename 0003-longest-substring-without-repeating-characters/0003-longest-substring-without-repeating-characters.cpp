@@ -5,7 +5,7 @@ public:
         int left=0;
         int ans=0;
         for(int right=0; right<s.size();right++){
-            while(st.find(s[right]) != st.end() ){
+            while(st.count(s[right]) ){
                 st.erase(s[left]);
                 left++;
             }

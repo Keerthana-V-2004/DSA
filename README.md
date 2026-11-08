@@ -152,6 +152,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/Keerthana-V-2004/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Keerthana-V-2004/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/Keerthana-V-2004/DSA/tree/master/0904-fruit-into-baskets) |
+| [1796-second-largest-digit-in-a-string](https://github.com/Keerthana-V-2004/DSA/tree/master/1796-second-largest-digit-in-a-string) |
 ## String
 |  |
 | ------- |
@@ -159,6 +160,7 @@
 | [0032-longest-valid-parentheses](https://github.com/Keerthana-V-2004/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0387-first-unique-character-in-a-string](https://github.com/Keerthana-V-2004/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Keerthana-V-2004/DSA/tree/master/0424-longest-repeating-character-replacement) |
+| [1796-second-largest-digit-in-a-string](https://github.com/Keerthana-V-2004/DSA/tree/master/1796-second-largest-digit-in-a-string) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/Keerthana-V-2004/DSA/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 ## Sliding Window
 |  |

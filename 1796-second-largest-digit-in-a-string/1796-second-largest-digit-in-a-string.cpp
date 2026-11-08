@@ -8,7 +8,7 @@ public:
                 if(num > largest){
                     secLargest = largest;
                     largest = num;
-                } else if(num > secLargest && num < largest){
+                } else if(num > secLargest && num != largest){
                     secLargest = num;
                 }
             }
